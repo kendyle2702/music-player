@@ -12,5 +12,5 @@ This is a music player program that uses API from Zingmp3
 
 
 ## Usage
-Deploy url: https://abc-steel-kappa.vercel.app/
+Deploy url: [https://abc-steel-kappa.vercel.app/](https://music-player-inky-ten.vercel.app/)
 
