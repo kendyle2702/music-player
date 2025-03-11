@@ -7,7 +7,7 @@ This is a music player program that uses API from Zingmp3
 
 ## UI
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/43aa758a-cb9c-4c1d-9247-f3bbbb115fdc" alt="UI" witdh=400px>
+  <img src="https://github.com/user-attachments/assets/43aa758a-cb9c-4c1d-9247-f3bbbb115fdc" alt="UI" witdh=300px>
 </div>
 
 
