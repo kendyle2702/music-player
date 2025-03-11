@@ -6,8 +6,7 @@ This is a music player program that uses API from Zingmp3
 
 
 ## UI
-![UI](https://github.com/kendyle2702/MusicPlayer/assets/101160086/118898ed-1c48-4e74-8b28-7a0b7e187185)
-
+![UI](https://github.com/user-attachments/assets/5124326f-7ef0-4f41-98ae-68f6cf361301)
 
 
 
