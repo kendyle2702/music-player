@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+
+
+    <!-- Add font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Add icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- My css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="loading">
+      <img class="loading-gif" src="./img/loading-fast.gif" alt="loading" />
+    </div>
+    <div class="player">
+      <!-- Dashboard  -->
+      <div class="dashboard">
+        <!-- Header  -->
+        <header>
+          <div class="header-left"><i class="fas fa-chevron-down"></i></div>
+          <div class="header-center">
+            <h4>Now playing:</h4>
+            <h2 class="name">id 072019</h2>
+          </div>
+          <div class="header-right"><i class="fas fa-plus"></i></div>
+        </header>
+        <!-- CD  -->
+        <div class="cd">
+          <img class="cd-thumb" src="./img/3107id072019.jpg" alt="image" />
+        </div>
+
+        <!-- Control  -->
+        <div class="control">
+          <div class="btn-container">
+            <div class="btn btn-repeat">
+              <i class="fas fa-retweet"></i>
+            </div>
+            <div class="btn btn-prev">
+              <i class="fas fa-step-backward"></i>
+            </div>
+            <div class="btn btn-toggle-play">
+              <i class="fas fa-pause icon-pause"></i>
+              <i class="fas fa-play icon-play"></i>
+            </div>
+            <div class="btn btn-next">
+              <i class="fas fa-step-forward"></i>
+            </div>
+            <div class="btn btn-random">
+              <i class="fas fa-random"></i>
+            </div>
+          </div>
+          <!-- progress  -->
+          <div class="progress-container">
+            <div class="time-container">
+              <div class="time-past">00:00</div>
+              <div class="time-seeking"></div>
+              <div class="time-remaining">00:00</div>
+            </div>
+            <input
+              id="progress"
+              type="range"
+              value="0"
+              step="1"
+              min="0"
+              max="10000"
+            />
+          </div>
+          <audio id="audio" src=""></audio>
+          <div class="tabs">
+            <div class="tab-item active">
+              <h3>My List</h3>
+            </div>
+            <div class="tab-item">
+              <h3>Top 100</h3>
+            </div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Playlist  -->
+      <div class="playlist playlist-mylist"></div>
+      <div class="playlist playlist-top100"></div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
